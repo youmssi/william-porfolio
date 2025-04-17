@@ -4,6 +4,7 @@ import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
+import { SkillsChart } from "@/components/skills-chart";
 
 export function SkillsSection() {
   const technicalSkills = [
@@ -82,6 +83,14 @@ export function SkillsSection() {
                     <Progress value={skill.proficiency} className="h-2" />
                   </div>
                 ))}
+              </div>
+              
+              <div className="mt-12">
+                <Card>
+                  <CardContent className="p-4">
+                    <SkillsChart />
+                  </CardContent>
+                </Card>
               </div>
             </TabsContent>
             

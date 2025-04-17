@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download } from "lucide-react";
 
@@ -41,11 +42,18 @@ export function HeroSection() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="h-[350px] w-[350px] overflow-hidden rounded-full border-4 border-muted bg-muted">
+            <div className="relative h-[350px] w-[350px] overflow-hidden rounded-full border-4 border-muted">
               {/* Replace with actual profile image */}
-              <div className="flex h-full items-center justify-center text-lg font-medium">
-                Profile Image
-              </div>
+              <Image 
+                src="/images/profile-placeholder.jpg" 
+                alt="William Timoh" 
+                fill
+                sizes="(max-width: 768px) 100vw, 350px"
+                priority
+                className="object-cover"
+                placeholder="blur"
+                blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjM1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+              />
             </div>
           </div>
         </div>
