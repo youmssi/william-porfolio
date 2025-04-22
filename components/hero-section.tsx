@@ -45,12 +45,12 @@ export function HeroSection() {
             <div className="relative h-[350px] w-[350px] overflow-hidden rounded-full border-4 border-muted">
               {/* Replace with actual profile image */}
               <Image 
-                src="/images/profile-placeholder.jpg" 
+                src="/images/profile-img.jpg" 
                 alt="William Timoh" 
                 fill
                 sizes="(max-width: 768px) 100vw, 350px"
                 priority
-                className="object-cover"
+                className="object-cover object-top"
                 placeholder="blur"
                 blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjM1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
               />
