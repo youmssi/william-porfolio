@@ -22,12 +22,10 @@ export function Header() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/experience", label: "Experience" },
-    { href: "/research-area", label: "Research Area" },
-    { href: "/projects", label: "Projects" },
-    { href: "/books", label: "Books" },
-    { href: "/references", label: "References" },
-    { href: "/research-contributions", label: "Research Contributions" },
-    { href: "/awards", label: "Awards" },
+    { href: "/researchs-and-projects", label: "Research & Projects" },
+    { href: "/publications-and-books", label: "Publications & Books" },
+    { href: "/partnerships", label: "Partnerships" },
+    { href: "/startup", label: "StartUp" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -37,8 +35,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between mx-auto px-4 md:px-0">
-        <div className="flex justify-between items-center gap-2">
+      <div className="container flex h-16 items-center justify-between mx-auto px-4 lg:px-2 xl:px-0">
+        <div className="flex items-center gap-2">
           <Link 
             href="/" 
             className="mr-6 flex items-center space-x-2 font-bold text-xl"
@@ -46,7 +44,7 @@ export function Header() {
             William Timoh
           </Link>
           
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden lg:flex gap-6">
             {navLinks.map((link) => (
               <Link 
                 key={link.href} 
@@ -93,7 +91,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="container py-4 space-y-3 mx-auto px-4 md:px-0">
             {navLinks.map((link) => (
               <Link 
