@@ -21,11 +21,13 @@ export function SkillsSection() {
   ];
 
   const softwareSkills = [
-    { category: "CAD/CAM", skills: ["SolidWorks", "Inventor", "AutoCAD", "Siemens NX", "CREO", "Revit"] },
-    { category: "Simulation", skills: ["ANSYS", "MATLAB", "CFD", "FEA", "PROCAST", "Autocast"] },
-    { category: "Programming", skills: ["C++", "Arduino", "PLC Programming", "Siemens PLC", "Alan Bradley PLC"] },
-    { category: "Office & Project", skills: ["Microsoft Word", "Excel", "Access", "MS Project", "PowerPoint"] },
-    { category: "Specialized", skills: ["Proteus", "Lab View", "Energy Plus", "Sketch Up", "Kongsberg Simulator"] },
+    { category: "CAD/CAM", skills: ["Siemens NX", "ANSYS", "SIMUMERIK", "aUTODESK 360"] },
+    { category: "Programming", skills: ["Python (in progress)", "C++", "MATLAB"] },
+    { category: "AI/ML", skills: ["TensorFlow (in progress)", "Reinforcement Learning (in progress)"] },
+    { category: "Simulation", skills: ["FEA (ANSYS)", "CFD", "Kongsberg Simulation Trainer"] },
+    { category: "Others", skills: ["LabView", "Proteus", "Arduino", "Ms Project"] },
+    // { category: "Office & Project", skills: ["Microsoft Word", "Excel", "Access", "MS Project", "PowerPoint"] },
+    // { category: "Specialized", skills: ["Proteus", "Lab View", "Energy Plus", "Sketch Up", "Kongsberg Simulator"] },
   ];
 
   const professionalSkills = [

@@ -26,6 +26,8 @@ export function Header() {
     { href: "/projects", label: "Projects" },
     { href: "/books", label: "Books" },
     { href: "/references", label: "References" },
+    { href: "/research-contributions", label: "Research Contributions" },
+    { href: "/awards", label: "Awards" },
     { href: "/contact", label: "Contact" },
   ];
 

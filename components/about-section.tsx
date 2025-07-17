@@ -19,7 +19,12 @@ export function AboutSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">About Me</h2>
             <p className="max-w-[700px] text-muted-foreground md:text-lg">
-              With over a decade of experience spanning engineering disciplines, I bring a unique perspective to solving complex technical challenges.
+            As Head of PKFokam Lab, I lead the PKFokam Innova on Lab Projects, supervising innova ve solu ons in
+ robo cs, AI-driven CNC opmiza on, subtrac ve and addi ve manufacturing, and sustainable
+ engineering. My research, MSMAAI, opmizes machining sequences using ML and RL for Industry 4.0.
+ With a Master’s in Industrial Maintenance and Produc on Engineering, CNC cer fica ons (Siemens
+ 828D), and exper se in CAD/CAM (SolidWorks, ANSYS), I am open to PhD opportuni es and industry
+ R&D roles. Download Research Proposal |
             </p>
           </div>
         </div>
@@ -32,7 +37,7 @@ export function AboutSection() {
                 <h3 className="text-xl font-semibold">Education</h3>
               </div>
               <p className="text-sm text-muted-foreground">
-                PhD student in Projects, Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering.
+                Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering [GPA, 3,2/4,0].
               </p>
             </CardContent>
           </Card>

@@ -21,11 +21,16 @@ export function HeroSection() {
             </div>
             <div className="space-y-3">
               <p className="text-muted-foreground md:text-lg">
-                A forward-thinking, result-driven professional with expertise in Industrial, Mechanical, and Marine Engineering.
-                Experienced in automation systems, complex troubleshooting, and innovative product design.
+              Head of Mechanical Engineering Laboratory at PKFokam University Ins tute of Excellence, Cameroon. As
+ Head of the Mechanical Engineering Laboratory at PKFokam University, I leading the PKFokam Innova on
+ Lab Projects, supervising students and worked with lecturers on AI-driven manufacturing, automa on,
+ and sustainable engineering solu ons, including AI-enhanced addi ve manufacturing and CNC
+ opmiza on.
+
               </p>
               <p className="font-medium md:text-lg">
-                Currently the Head of Laboratory at Mechanical Engineering Department, PKFokam University Institute of Excellence
+              Head of PKFokam Lab | Robo cs, AI & Smart Manufacturing Innovator | Open to PhD & Industry
+              Opportunities
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

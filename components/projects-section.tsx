@@ -4,44 +4,65 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { BrainCircuit, Cog, Ship, Wind, Factory, Wrench } from "lucide-react";
+import { BrainCircuit, Cog, Ship, Wind, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Settings, BookOpen } from "lucide-react";
 
 export function ProjectsSection() {
   const currentProjects = [
     {
       id: 1,
-      title: "AI-Based Tool Path Optimization Algorithm for CNC Machining",
-      description: "Development of an AI-driven algorithm to optimize tool paths for CNC machining operations, increasing efficiency and reducing material waste.",
-      icon: <BrainCircuit className="h-8 w-8 text-primary" />,
-      tags: ["AI", "CNC", "Manufacturing", "Optimization"]
+      title: "Jion Project: AI-Enhanced Additive Manufacturing for Rapid Prototyping",
+      description: "Supervised development of AI-driven 3D printing processes to optimize material use and speed. Used machine learning to predict print failures, reducing waste by 20%. Tools: Python, SolidWorks, TensorFlow (in progress). [Details in Portfolio PDF]",
+      icon: <Layers className="h-8 w-8 text-primary" />,
+      tags: ["AI", "3D Printing", "Machine Learning", "Python", "SolidWorks"]
     },
     {
       id: 2,
-      title: "Beans Pealing Machine",
-      description: "Design and development of an efficient beans pealing machine to automate and improve the food processing industry.",
-      icon: <Factory className="h-8 w-8 text-primary" />,
-      tags: ["Food Processing", "Mechanical Design", "Automation"]
+      title: "Jion Project: General Purpose Industrial Mixer",
+      description: "Led design of an automated mixer for industrial applications, integrating PLC control (Siemens). Improved mixing efficiency by 15%. Tools: Siemens NX, MATLAB. [Details in Portfolio PDF]",
+      icon: <Cog className="h-8 w-8 text-primary" />,
+      tags: ["Industrial Mixer", "PLC", "Siemens NX", "MATLAB"]
     },
     {
       id: 3,
-      title: "Sugarcane Pressing Machine",
-      description: "Engineering a high-efficiency sugarcane pressing machine for small to medium-scale operations.",
-      icon: <Factory className="h-8 w-8 text-primary" />,
-      tags: ["Agricultural Engineering", "Mechanical Design", "Efficiency"]
+      title: "Minijet Engine Design and Development",
+      description: "Guided team in designing a compact jet engine prototype for educational use. Conducted FEA simulations (ANSYS) to optimize blade stress. Tools: ANSYS, Creo. [Details in Portfolio PDF]",
+      icon: <FlaskConical className="h-8 w-8 text-primary" />,
+      tags: ["Jet Engine", "FEA", "ANSYS", "Creo"]
     },
     {
       id: 4,
-      title: "Solar Energy Heat Magnetic Tramway Levitation",
-      description: "Innovative application of solar energy for magnetic levitation in local inter-region transportation systems.",
-      icon: <Wind className="h-8 w-8 text-primary" />,
-      tags: ["Renewable Energy", "Transportation", "Magnetic Levitation"]
+      title: "All-Terrain Vehicle Design and Development",
+      description: "Supervised CAD design and prototyping of a rugged vehicle for rural Cameroon. Enhanced suspension durability by 30%. Tools: SolidWorks, AutoCAD. [Details in Portfolio PDF]",
+      icon: <Hammer className="h-8 w-8 text-primary" />,
+      tags: ["Vehicle Design", "SolidWorks", "AutoCAD"]
     },
     {
       id: 5,
-      title: "Enhanced Wind Tracker Structural Modeling System",
-      description: "Development of advanced structural modeling for repositioning floating offshore wind turbines for optimal energy capture.",
-      icon: <Wind className="h-8 w-8 text-primary" />,
-      tags: ["Renewable Energy", "Structural Engineering", "Modeling"]
+      title: "Agricultural/Waste General Purpose Shredder",
+      description: "Oversaw design of a shredder for agricultural waste recycling, improving throughput by 25%. Tools: Siemens NX, MATLAB. [Details in Portfolio PDF]",
+      icon: <Leaf className="h-8 w-8 text-primary" />,
+      tags: ["Shredder", "Agricultural Engineering", "Siemens NX", "MATLAB"]
+    },
+    {
+      id: 6,
+      title: "Dual Heat Furnace for Metal Melting (2500°C)",
+      description: "Led development of a gas/charcoal furnace for small-scale foundries in Cameroon. Optimized thermal efficiency using CFD (ANSYS). Tools: ANSYS, SolidWorks. [Details in Portfolio PDF]",
+      icon: <FlaskConical className="h-8 w-8 text-primary" />,
+      tags: ["Furnace", "CFD", "ANSYS", "SolidWorks"]
+    },
+    {
+      id: 7,
+      title: "Universal Pellet Machine for Feed Production",
+      description: "Supervised design of a pelletizer for livestock feed, increasing production rate by 20%. Tools: Creo, MATLAB. [Details in Portfolio PDF]",
+      icon: <Settings className="h-8 w-8 text-primary" />,
+      tags: ["Pellet Machine", "Feed Production", "Creo", "MATLAB"]
+    },
+    {
+      id: 8,
+      title: "Sugar Cane Press for Juice Production",
+      description: "Guided team in designing a press for small-scale farmers, improving juice yield by 15%. Tools: SolidWorks, AutoCAD. [Details in Portfolio PDF]",
+      icon: <BookOpen className="h-8 w-8 text-primary" />,
+      tags: ["Sugar Cane Press", "SolidWorks", "AutoCAD"]
     }
   ];
 

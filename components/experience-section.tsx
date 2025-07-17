@@ -42,15 +42,16 @@ export function ExperienceSection() {
             <TabsContent value="work" className="space-y-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>HEAD OF LABORATORY - Mechanical Engineering Department</CardTitle>
+                  <CardTitle>Head of Laboratory, Mechanical Engineering</CardTitle>
                   <CardDescription>PKFokam University Institute of Excellence, Cameroon (2019 - Present)</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Completed the design requirements, procurements, commissioning and installations of state-of-the-art Mechanical Engineering laboratory and workshops.</li>
-                    <li>Oversaw the installation of CNC EMCOMAT/FB Universal Milling and Turning equipment.</li>
-                    <li>Lecturer in Engineering Graphics, Welding, CNC Machining and Programming, Engineering Materials, Manufacturing Automation, and Metrology.</li>
-                    <li>Supervised student projects and conducted research initiatives.</li>
+                    <li>Commissioned state-of-the-art CNC milling/turning facili es (EMCOMAT/FB).</li>
+                    <li> Lecturer in CNC Machining and Programming, Manufacturing Automa on, Metrology and Design
+                    and Manufacturing Engineering Graphic II.</li>
+                    <li> Supervised student projects in AI-driven manufacturing opmiza on.</li>
+                    <li> Hands-on Prac cal projects on USING SIEMEN, FANUC Controllers for Advanced Machining.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -62,39 +63,33 @@ export function ExperienceSection() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Led Computer Aided Design projects and Building Information Modeling work.</li>
-                    <li>Managed project budgeting, planning, inventory control, and stock management.</li>
-                    <li>Maintained mechanical, pneumatic, hydraulic, and electrical systems.</li>
-                    <li>Developed the company&apos;s maiden &quot;I-build project&quot; constructional web marketing platform.</li>
-                    <li>Successfully initiated and completed partnership contracts between companies.</li>
+                    <li>Managed CAD/CAM designs and mechanical systems maintenance.</li>
+                    <li> Led project budge ng and inventory control.</li>
                   </ul>
                 </CardContent>
               </Card>
               
               <Card>
                 <CardHeader>
-                  <CardTitle>FREELANCE 3D DESIGN ENGINEER</CardTitle>
-                  <CardDescription>DESSIMINTEL, Accra Ghana (2016-2018)</CardDescription>
+                  <CardTitle>3D Design Engineer (Freelance)</CardTitle>
+                  <CardDescription>DESSIMINTEL, Ghana (2016-2018)</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Provided project consultation services for clients including KERSL Ghana and Stand Code Engineering.</li>
-                    <li>Conducted project research and development assistance with finite element analysis (FEA) and 3D simulations.</li>
-                    <li>Performed force and stress analysis of oil storage tanks and CFD computation for air conditioning systems.</li>
-                    <li>Supervised a project to design and simulate an automatic gutter evacuator for presentation at the German Academic Exchange Service (Falling Walls).</li>
-                    <li>Developed software applications using MATLAB for KAAF University of Ghana.</li>
+                    <li>onducted FEA and CFD simula ons for oil storage tanks.</li>
+                    <li>Developed MATLAB app for automa on at KAAF University..</li>
                   </ul>
                 </CardContent>
               </Card>
               
               <Card>
                 <CardHeader>
-                  <CardTitle>SYSTEMS ENGINEER</CardTitle>
-                  <CardDescription>CAMEROON RAILWAY (CAMRAIL), Douala, Cameroon (2011-2012)</CardDescription>
+                  <CardTitle> Maintenance Engineer</CardTitle>
+                  <CardDescription>Cameroon Railway (CAMRAIL), Douala (2011–2012)</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Optimized the systems performance of Locomotives Types CC 2200 using Flash Based Memory Systems.</li>
+                    <li>Opmized locomo ve performance using flash-based memory systems.</li>
                     <li>Performed troubleshooting, maintenance, and wheel design for railway locomotive systems.</li>
                   </ul>
                 </CardContent>
