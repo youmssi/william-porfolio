@@ -6,7 +6,6 @@ const nextConfig = {
   },
   // Disable features not supported in static export
   reactStrictMode: true,
-  swcMinify: true,
 };
 
 export default nextConfig;

@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { BrainCircuit, Cog, Ship, Wind, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Settings, BookOpen } from "lucide-react";
+import { Cog, Ship, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Settings, BookOpen } from "lucide-react";
 
 export function ProjectsSection() {
   const currentProjects = [
