@@ -12,7 +12,7 @@ export default function ResearchContributionsPage() {
         </div>
       </div>
       <section className="py-8">
-        <div className="container px-4 md:px-6 mx-auto max-w-2xl">
+        <div className="container px-4 md:px-6 mx-auto max-w-2xl space-y-6">
           <Card>
             <CardContent className="p-6 space-y-4">
               <div>
@@ -25,6 +25,22 @@ export default function ResearchContributionsPage() {
                   Preparing paper on “AI-Driven Machining Sequence Optimization for CNC Milling” for ASME MSEC 2026.
                 </p>
               </div>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-6 space-y-2">
+              <h2 className="text-xl font-semibold mb-2">Founder & Club Leadership</h2>
+              <p className="text-muted-foreground text-sm">
+                Founder and Former President of Computational Engineering Design club at Regional Maritime University with over 240 members.
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-6 space-y-2">
+              <h2 className="text-xl font-semibold mb-2">Research Team Member</h2>
+              <p className="text-muted-foreground text-sm">
+                Former Research team member in the design and computational simulation of inland fishing boats across Ghana at the Regional Maritime University Ghana.
+              </p>
             </CardContent>
           </Card>
         </div>

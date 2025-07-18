@@ -19,12 +19,12 @@ export function AboutSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">About Me</h2>
             <p className="max-w-[700px] text-muted-foreground md:text-lg">
-            As Head of PKFokam Lab, I lead the PKFokam Innova on Lab Projects, supervising innova ve solu ons in
- robo cs, AI-driven CNC opmiza on, subtrac ve and addi ve manufacturing, and sustainable
- engineering. My research, MSMAAI, opmizes machining sequences using ML and RL for Industry 4.0.
- With a Master’s in Industrial Maintenance and Produc on Engineering, CNC cer fica ons (Siemens
- 828D), and exper se in CAD/CAM (SolidWorks, ANSYS), I am open to PhD opportuni es and industry
- R&D roles. Download Research Proposal |
+            As Head of PKFokam Mechanical Engineering Lab, I lead the PKFokam Innova on Lab Projects, 
+supervising innovative solutions in robotics, AI-driven CNC optimization, subtractive and additive 
+manufacturing, and sustainable engineering. My research, MSMAAI, optimizes machining sequences 
+using ML and RL for Industry 4.0. With a Master’s in Industrial Maintenance and Production 
+Engineering, CNC certifications (Siemens 828D), and expertise in CAD/CAM (SolidWorks, ANSYS), I am 
+open to PhD opportunities and industry R&D roles. Download Research Proposal  
             </p>
           </div>
         </div>
@@ -61,7 +61,13 @@ export function AboutSection() {
                 <h3 className="text-xl font-semibold">Expertise</h3>
               </div>
               <p className="text-sm text-muted-foreground">
-                Specialized in mechanical systems design, industrial automation, CAD/CAM technologies, and engineering simulations.
+              Artificial Intelligence / Industrial 4.0, Digital Manufacturing & Design , Project Management 
+Product Design Production Processing Business-strategy & Marketing Industrial Automation Field-
+Engineering Maintenance Reliability-Engineering Engineering simulations Mechanical Designs 
+Application Software Hydraulic /Pneumatic Engineering Structural Design Materials 
+Characterizations Marine Engineering Mechanical Engineering Computational Simulation Data 
+acquisition system Primavera P6s Oil And Gas Engineering Research and Professional Foundry and 
+Welding
               </p>
             </CardContent>
           </Card>

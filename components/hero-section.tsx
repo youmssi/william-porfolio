@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Linkedin } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -16,7 +16,7 @@ export function HeroSection() {
                 Timoh William Chick
               </h1>
               <p className="text-lg text-muted-foreground sm:text-xl">
-                Engineering & Technology Expert
+              HEAD of PKFokam Mechanical Engineering Lab | Robotics, AI & Smart Manufacturing Innovator | Open to PhD & Industry Opportunities
               </p>
             </div>
             <div className="space-y-3">
@@ -28,22 +28,17 @@ export function HeroSection() {
  opmiza on.
 
               </p>
-              <p className="font-medium md:text-lg">
-              Head of PKFokam Lab | Robo cs, AI & Smart Manufacturing Innovator | Open to PhD & Industry
-              Opportunities
-              </p>
             </div>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col gap-3 items-center min-[400px]:flex-row">
               <Button asChild>
                 <Link href="/contact">
                   Contact me <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button variant="outline" asChild>
-                <Link href="#" className="inline-flex items-center">
-                  Resume <Download className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+              <Link href="https://www.linkedin.com/in/timoh-chick-william-57a096375/" className="hover:text-foreground text-muted-foreground">
+                <Linkedin className="h-7 w-7 text-blue-600" />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
             </div>
           </div>
           <div className="flex items-center justify-center">

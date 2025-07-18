@@ -64,7 +64,7 @@ export function ExperienceSection() {
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
                     <li>Managed CAD/CAM designs and mechanical systems maintenance.</li>
-                    <li> Led project budge ng and inventory control.</li>
+                    <li> Led project budgeting and inventory control.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -76,8 +76,8 @@ export function ExperienceSection() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>onducted FEA and CFD simula ons for oil storage tanks.</li>
-                    <li>Developed MATLAB app for automa on at KAAF University..</li>
+                    <li>Conducted FEA and CFD simulations for oil storage tanks.</li>
+                    <li>Developed MATLAB app for automation at KAAF University.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -89,7 +89,7 @@ export function ExperienceSection() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Opmized locomo ve performance using flash-based memory systems.</li>
+                    <li>Optimized locomotive performance using flash-based memory systems.</li>
                     <li>Performed troubleshooting, maintenance, and wheel design for railway locomotive systems.</li>
                   </ul>
                 </CardContent>

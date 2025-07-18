@@ -5,7 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Download } from "lucide-react";
+import Link from "next/link";
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -91,6 +92,18 @@ export function ContactSection() {
                 <h3 className="font-medium mb-2">Office Hours</h3>
                 <p className="text-sm text-muted-foreground">Monday - Friday: 9:00 AM - 5:00 PM</p>
                 <p className="text-sm text-muted-foreground">Weekends: By appointment only</p>
+              </div>
+              <div className="pt-6 flex flex-col gap-3">
+                <Button asChild variant="outline">
+                  <Link href="/CV_TIMOH WILLIAM _CHICK.pdf" download>
+                    Download CV <Download className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button asChild variant="outline">
+                  <a href="/msmaai-research-proposal.pdf" download>
+                    Download MSMAAI Research Proposal
+                  </a>
+                </Button>
               </div>
             </CardContent>
           </Card>

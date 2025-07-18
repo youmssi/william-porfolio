@@ -41,7 +41,7 @@ export function Footer() {
           <div className="space-y-3">
             <h3 className="text-lg font-medium">Connect</h3>
             <div className="flex space-x-4">
-              <Link href="#" className="hover:text-foreground text-muted-foreground">
+              <Link href="https://www.linkedin.com/in/timoh-chick-william-57a096375/" className="hover:text-foreground text-muted-foreground">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>

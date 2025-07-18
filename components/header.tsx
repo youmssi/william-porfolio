@@ -24,11 +24,11 @@ export function Header() {
     { href: "/experience", label: "Experience" },
     { href: "/research-area", label: "Research Area" },
     { href: "/projects", label: "Projects" },
-    // { href: "/books", label: "Books" },
-    // { href: "/references", label: "References" },
     { href: "/research-contributions", label: "Research Contributions" },
     { href: "/awards", label: "Awards" },
+    { href: "/references", label: "References" },
     { href: "/contact", label: "Contact" },
+    { href: "/books", label: "Books" },
   ];
 
   const toggleTheme = () => {
@@ -43,7 +43,7 @@ export function Header() {
             href="/" 
             className="mr-6 flex items-center space-x-2 font-bold text-xl"
           >
-            William Timoh
+            Timoh William Chick
           </Link>
           
           <nav className="hidden md:flex gap-6">

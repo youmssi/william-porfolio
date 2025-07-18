@@ -21,13 +21,101 @@ export function SkillsSection() {
   ];
 
   const softwareSkills = [
-    { category: "CAD/CAM", skills: ["Siemens NX", "ANSYS", "SIMUMERIK", "aUTODESK 360"] },
-    { category: "Programming", skills: ["Python (in progress)", "C++", "MATLAB"] },
-    { category: "AI/ML", skills: ["TensorFlow (in progress)", "Reinforcement Learning (in progress)"] },
-    { category: "Simulation", skills: ["FEA (ANSYS)", "CFD", "Kongsberg Simulation Trainer"] },
-    { category: "Others", skills: ["LabView", "Proteus", "Arduino", "Ms Project"] },
-    // { category: "Office & Project", skills: ["Microsoft Word", "Excel", "Access", "MS Project", "PowerPoint"] },
-    // { category: "Specialized", skills: ["Proteus", "Lab View", "Energy Plus", "Sketch Up", "Kongsberg Simulator"] },
+    {
+      category: "Leadership & Management",
+      skills: [
+        "Primavera P6",
+        "Microsoft Project",
+        "Microsoft Word",
+        "Excel",
+        "Access",
+        "Lean Six Sigma"
+      ]
+    },
+    {
+      category: "Robotics, AI, & Smart Manufacturing",
+      skills: [
+        "Siemens PLC",
+        "Allen Bradley PLC",
+        "C++",
+        "MATLAB",
+        "Arduino",
+        "LabVIEW",
+        "Kongsberg Simulation Trainer",
+        "Python",
+        "ROS (Robot Operating System)",
+        "IoT Platforms"
+      ]
+    },
+    {
+      category: "Mechanical Engineering & Design",
+      skills: [
+        "SolidWorks",
+        "Siemens NX",
+        "Autodesk Inventor",
+        "AutoCAD",
+        "Autodesk 360",
+        "ANSYS",
+        "SketchUp",
+        "3ds Max",
+        "SIMUMERIK",
+        "COMSOL",
+        "Creo Parametric",
+        "Additive Manufacturing (3D Printing)"
+      ]
+    },
+    {
+      category: "Production & Process Engineering",
+      skills: [
+        "Siemens PLC",
+        "Allen Bradley PLC",
+        "MATLAB",
+        "Statistical Process Control (SPC)",
+        "SAP"
+      ]
+    },
+    {
+      category: "Simulation & Analysis",
+      skills: [
+        "ANSYS",
+        "MATLAB",
+        "Kongsberg Simulation Trainer",
+        "COMSOL Multiphysics",
+        "CFD (Computational Fluid Dynamics)",
+        "Simulink",
+        "Autocast",
+        "PROCAST"
+      ]
+    },
+    {
+      category: "AI/ML",
+      skills: [
+        "Machine Learning Specialization (in progress)",
+        "TensorFlow (in progress)",
+        "Neural Networks and Deep Learning (in progress)",
+        "Reinforcement Learning (in progress)"
+      ]
+    },
+    {
+      category: "Software & Programming",
+      skills: [
+        "C++",
+        "MATLAB",
+        "LabVIEW",
+        "Schemaplic",
+        "Proteus",
+        "Embedded Systems Programming"
+      ]
+    },
+    {
+      category: "Specialized Engineering Domains",
+      skills: [
+        "Autodesk Revit",
+        "Energy Plus",
+        "PDMS",
+        "AutoCAD Plant 3D"
+      ]
+    }
   ];
 
   const professionalSkills = [
@@ -144,9 +232,16 @@ export function SkillsSection() {
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm font-medium">
                     <span>French</span>
-                    <span>Very Good</span>
+                    <span>Very Good, Fluent</span>
                   </div>
-                  <Progress value={85} className="h-2" />
+                  <Progress value={80} className="h-2" />
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm font-medium">
+                    <span>Chinese</span>
+                    <span>In Progress</span>
+                  </div>
+                  <Progress value={50} className="h-2" />
                 </div>
               </div>
             </CardContent>
