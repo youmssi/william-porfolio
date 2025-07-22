@@ -95,7 +95,7 @@ export function ContactSection() {
               </div>
               <div className="pt-6 flex flex-col gap-3">
                 <Button asChild variant="outline">
-                  <Link href="/CV_TIMOH WILLIAM _CHICK.pdf" download>
+                  <Link href="/cv-real.pdf" download>
                     Download CV <Download className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>

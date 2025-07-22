@@ -4,17 +4,20 @@ const books = [
   {
     title: "UNTAPPED REALMS: Unveiling the Hidden Dimensions of the Spirit",
     price: 90,
-    currency: "$"
+    currency: "$",
+    image: "" // Mettre le chemin de l'image ici
   },
   {
     title: "THE REALMS OF DIVINE KNOWLEDGE: (EXPLORING THE DEPTHS OF GOD'S MYSTERIES)",
     price: 60,
-    currency: "$"
+    currency: "$",
+    image: ""
   },
   {
     title: "The Celestial Academy: (Five Divine Training Dimensions)",
     price: 15,
-    currency: "$"
+    currency: "$",
+    image: ""
   }
 ];
 
@@ -34,6 +37,11 @@ export default function BooksPage() {
           {books.map((book, idx) => (
             <Card key={idx} className="flex flex-col h-full shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-6 flex flex-col flex-1 justify-between">
+                {book.image && (
+                  <div className="w-full h-48 mb-4 flex items-center justify-center bg-muted rounded">
+                    <img src={book.image} alt={book.title} className="object-contain h-full max-w-full" />
+                  </div>
+                )}
                 <div>
                   <h2 className="text-xl font-semibold mb-2 text-primary">{book.title}</h2>
                 </div>
