@@ -49,7 +49,6 @@ export function Header() {
     { href: "/research-contributions", label: "Research Contributions" },
     { href: "/awards", label: "Awards" },
     { href: "/references", label: "References" },
-    { href: "/books", label: "Books" },
   ];
 
   const toggleTheme = () => {
