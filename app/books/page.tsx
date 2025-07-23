@@ -5,19 +5,19 @@ const books = [
     title: "UNTAPPED REALMS: Unveiling the Hidden Dimensions of the Spirit",
     price: 90,
     currency: "$",
-    image: "" // Mettre le chemin de l'image ici
+    image: "/images/books/UNTAPPED REALM COVER PAGE.jpg"
   },
   {
     title: "THE REALMS OF DIVINE KNOWLEDGE: (EXPLORING THE DEPTHS OF GOD'S MYSTERIES)",
     price: 60,
     currency: "$",
-    image: ""
+    image: "/images/books/Final REALM OF DEVINE KNOWLEDGE.jpg"
   },
   {
     title: "The Celestial Academy: (Five Divine Training Dimensions)",
     price: 15,
     currency: "$",
-    image: ""
+    image: "/images/books/Final The Celestrial Academy.jpg"
   }
 ];
 

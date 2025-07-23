@@ -258,16 +258,24 @@ export function SkillsSection() {
                 <Badge>Materials</Badge>
                 <Badge>Energy Systems</Badge>
                 <Badge>Structural Design</Badge>
-                <Badge>Product Design</Badge>
-                <Badge>Project Management</Badge>
-                <Badge>Maintenance</Badge>
-                <Badge>Reliability Engineering</Badge>
-                <Badge>Industrial Automation</Badge>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+              <Badge>Product Design</Badge>
+              <Badge>Project Management</Badge>
+              <Badge>Maintenance</Badge>
+              <Badge>Reliability Engineering</Badge>
+              <Badge>Industrial Automation</Badge>
+              <Badge>optimization AI-based mechanical design processes</Badge>
+              <Badge>Integrating ML techniques for automated systems applications</Badge>
+              <Badge>Developing solutions for energy efficiency and biomedical challenges using AI</Badge>
+              <Badge>Evaluation and application of new AI methods to solve <br />mechanical engineering problems.</Badge>
+              <Badge>Digital Manufacturing</Badge>
+              <Badge>Design Technology Specialization</Badge>
+              <Badge>AI for Mechanical Engineering Specializations</Badge>
+            </div>
+          </CardContent>
+        </Card>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
+
 } 

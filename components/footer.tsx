@@ -9,10 +9,9 @@ export function Footer() {
       <div className="container py-10 mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-3">
-            <h3 className="text-lg font-medium">William Timoh</h3>
+            <h3 className="text-lg font-medium">Timoh William Chick</h3>
             <p className="text-sm text-muted-foreground">
-              Engineering & Technology Expert with extensive experience in design, 
-              research, and education.
+            HEAD of PKFokam Mechanical Engineering Lab | Robotics, AI & Smart Manufacturing Innovator | Open to PhD & Industry Opportunities
             </p>
           </div>
           
@@ -59,7 +58,7 @@ export function Footer() {
         
         <div className="mt-8 border-t pt-6">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} William Timoh. All rights reserved.
+            © {new Date().getFullYear()} Timoh William Chick. All rights reserved.
           </p>
         </div>
       </div>

@@ -21,11 +21,8 @@ export function HeroSection() {
             </div>
             <div className="space-y-3">
               <p className="text-muted-foreground md:text-lg">
-              Head of Mechanical Engineering Laboratory at PKFokam University Ins tute of Excellence, Cameroon. As
- Head of the Mechanical Engineering Laboratory at PKFokam University, I leading the PKFokam Innova on
- Lab Projects, supervising students and worked with lecturers on AI-driven manufacturing, automa on,
- and sustainable engineering solu ons, including AI-enhanced addi ve manufacturing and CNC
- opmiza on.
+              Head of Mechanical Engineering Laboratory at PKFokam University Institute of Excellence, Cameroon. As
+ Head of the Mechanical Engineering Laboratory at PKFokam University,  Our team led by me at the PKFokam Mechanical Engineering Innovation Lab have done numerous Projects, supervising students and worked with lecturers on AI-driven manufacturing, automation, and sustainable engineering solutions, including AI-enhanced additive manufacturing and CNC optimization.
 
               </p>
             </div>

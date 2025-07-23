@@ -97,7 +97,7 @@ export function ExperienceSection() {
             </TabsContent>
             
             <TabsContent value="education" className="space-y-6">
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle>PhD Student - Doctorate in Projects</CardTitle>
                   <CardDescription>Funiber, 2021-2022</CardDescription>
@@ -105,7 +105,7 @@ export function ExperienceSection() {
                 <CardContent className="space-y-2">
                   <p className="text-sm">Advanced studies in project management methodologies and implementation strategies.</p>
                 </CardContent>
-              </Card>
+              </Card> */}
               
               <Card>
                 <CardHeader>
