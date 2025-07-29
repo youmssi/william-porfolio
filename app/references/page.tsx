@@ -1,21 +1,7 @@
 import { ReferenceSection, Reference } from "@/components/reference-section";
 
 const references: Reference[] = [
-  {
-    name: "OFFOLE Florence Espe NNA ZAME, PhD",
-    title: "Associate Professor/Vice Dean",
-    department: "Department of Mechanical/Mechatronics Engineering",
-    institution: "Faculty of Science, University of Bertoua, Cameroon\nFormer: National Higher Polytechnic School of Douala, University of Douala, P.O. BOX 2107, Douala, Cameroon",
-    mobile: "+237674405965",
-    whatsapp: "https://wa.me/237674405965",
-    email: "florenceoffole@yahoo.fr",
-    profile: {
-      label: "florence.offole@univ-bertoua.cm",
-      url: "mailto:florence.offole@univ-bertoua.cm"
-    },
-    professionalIds: [],
-    researchInterest: "Neuro-Fuzzy, ANFIS, Petri Nets, Neural Networks and Artificial Intelligence, Fuzzy Clustering, Applied Artificial Intelligence, And Control Systems. Integration of Electronics and Software In Mechanical Applications. Advanced Manufacturing Or Fluid Power Systems."
-  },
+ 
   {
     name: "Dr. Samuel Ratna Kumar",
     title: "Assistant Professor - III & Head",
