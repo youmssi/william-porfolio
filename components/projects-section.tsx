@@ -9,6 +9,14 @@ import { Cog, Ship, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Setting
 export function ProjectsSection() {
   const currentProjects = [
     {
+      id: 0,
+      title: "Integrated Smart Mechatronic Systems for Sustainable Precision Agriculture (MSc Project)",
+      description:
+        "A framework for AI-driven robotics, additive manufacturing, and renewable energy solutions, enabling precision agriculture through smart mechatronic integration. Tools: AI, Robotics, 3D Printing, Renewable Energy.",
+      icon: <Factory className="h-8 w-8 text-primary" />,
+      tags: ["Precision Agriculture", "AI", "Robotics", "Additive Manufacturing", "Renewable Energy"]
+    },
+    {
       id: 1,
       title: "Jion Project: AI-Enhanced Additive Manufacturing for Rapid Prototyping",
       description: "Supervised development of AI-driven 3D printing processes to optimize material use and speed. Used machine learning to predict print failures, reducing waste by 20%. Tools: Python, SolidWorks, TensorFlow (in progress). [Details in Portfolio PDF]",

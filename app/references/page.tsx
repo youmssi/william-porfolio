@@ -1,7 +1,17 @@
 import { ReferenceSection, Reference } from "@/components/reference-section";
 
 const references: Reference[] = [
- 
+  {
+    name: "Professor Mathias Fru Fonteh",
+    title: "Management of Water Resources",
+    department: "",
+    institution: "Director of COLTECH, University of Bamenda",
+    mobile: "(+237)677760863",
+    email: "matfonte@hyahoo.com",
+
+    professionalIds: [],
+    researchInterest: "Management of Water Resources"
+  },
   {
     name: "Dr. Samuel Ratna Kumar",
     title: "Assistant Professor - III & Head",
@@ -25,10 +35,7 @@ const references: Reference[] = [
     mobile: "+91-87549 33907",
     whatsapp: "https://wa.me/918754933907",
     email: "ramanathan.s.mec@kct.ac.in",
-    profile: {
-      label: "",
-      url: ""
-    },
+
     professionalIds: [],
     researchInterest: "Heat Transfer, Entropy, Renewable Energy, Computational Fluid Dynamics (CFD), Fluid Mechanics, Heat Transfer, Solar, Wind Turbine, Thermodynamics."
   },
@@ -40,10 +47,7 @@ const references: Reference[] = [
     mobile: "+32 466 186 902 / (+237) 691 499 818",
     whatsapp: "https://wa.me/32466186902",
     email: "ndach_thierry@yahoo.com",
-    profile: {
-      label: "thierry_ndoh.ndach@siemens.com",
-      url: "mailto:thierry_ndoh.ndach@siemens.com"
-    },
+
     professionalIds: [],
     researchInterest: "Scada Transport and Distribution Control centers. System architect for grid control applications for Transport and Distribution networks. Versed with the use and implementation of Transmission Network application (SE, CA, PF, etc). Control Center SCADA software, Design Engineering, Installation and Commissioning."
   }

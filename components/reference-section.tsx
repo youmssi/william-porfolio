@@ -7,11 +7,11 @@ export type Reference = {
   department: string;
   institution: string;
   mobile: string;
-  whatsapp: string;
+  whatsapp?: string;
   email: string;
-  profile: { label: string; url: string };
-  professionalIds: { label: string; value: string }[];
-  researchInterest: string;
+  profile?: { label: string; url: string };
+  professionalIds?: { label: string; value: string }[];
+  researchInterest?: string;
 };
 
 export function ReferenceSection({ references }: { references: Reference[] }) {
@@ -35,21 +35,35 @@ export function ReferenceSection({ references }: { references: Reference[] }) {
                   {ref.department}<br/>
                   {ref.institution}</p>
                 <Separator className="my-2" />
-                <p className="text-sm"><b>Mobile:</b> <a href={ref.whatsapp} className="text-primary hover:underline" target="_blank" rel="noopener">{ref.mobile} (WhatsApp)</a></p>
+                {ref.whatsapp ? (
+                  <p className="text-sm"><b>Mobile:</b> <a href={ref.whatsapp} className="text-primary hover:underline" target="_blank" rel="noopener">{ref.mobile} (WhatsApp)</a></p>
+                ) : (
+                  <p className="text-sm"><b>Mobile:</b> {ref.mobile}</p>
+                )}
                 <p className="text-sm"><b>Email:</b> <a href={`mailto:${ref.email}`} className="text-primary hover:underline">{ref.email}</a></p>
-                <p className="text-sm"><b>Vidwan | Profile Page:</b> <a href={ref.profile.url} className="text-primary hover:underline" target="_blank" rel="noopener">{ref.profile.label}</a></p>
-                <Separator className="my-2" />
-                <div className="text-sm">
-                  <b>Professional IDs:</b><br/>
-                  {ref.professionalIds.map((id, i) => (
-                    <span key={i}>{id.label}: {id.value}<br/></span>
-                  ))}
-                </div>
-                <Separator className="my-2" />
-                <div className="text-sm">
-                  <b>Research Interest:</b><br/>
-                  {ref.researchInterest}
-                </div>
+                {ref.profile && ref.profile.url && ref.profile.label && (
+                  <p className="text-sm"><b>Vidwan | Profile Page:</b> <a href={ref.profile.url} className="text-primary hover:underline" target="_blank" rel="noopener">{ref.profile.label}</a></p>
+                )}
+                {ref.professionalIds && ref.professionalIds.length > 0 && (
+                  <>
+                    <Separator className="my-2" />
+                    <div className="text-sm">
+                      <b>Professional IDs:</b><br/>
+                      {ref.professionalIds.map((id, i) => (
+                        <span key={i}>{id.label}: {id.value}<br/></span>
+                      ))}
+                    </div>
+                  </>
+                )}
+                {ref.researchInterest && (
+                  <>
+                    <Separator className="my-2" />
+                    <div className="text-sm">
+                      <b>Research Interest:</b><br/>
+                      {ref.researchInterest}
+                    </div>
+                  </>
+                )}
               </div>
             </CardContent>
           </Card>
