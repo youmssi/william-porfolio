@@ -36,9 +36,21 @@ open to PhD opportunities and industry R&D roles. Download Research Proposal
                 <GraduationCap className="h-5 w-5 text-primary" />
                 <h3 className="text-xl font-semibold">Education</h3>
               </div>
-              <p className="text-sm text-muted-foreground">
-                Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering [GPA, 3,2/4,0].
-              </p>
+              
+                <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-2">
+                <li>
+                  MSc Mechatronics Engineering (Expected 2026) 2025–2026
+                  <div>ColTech College of Technology, University of Buea</div>
+                </li>
+                <li>
+                  Current Research: Digital Twin Framework for AI-Optimized Cocoa Harvesting with Field Validation of
+                  Robotic Harvesting in Tropical Farms
+                </li>
+                <li>
+                  Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering [GPA, 3,2/4,0].
+                </li>
+              </ul>
+              
             </CardContent>
           </Card>
           
@@ -120,4 +132,4 @@ Welding
       </div>
     </section>
   );
-} 
+}
