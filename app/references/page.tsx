@@ -50,6 +50,16 @@ const references: Reference[] = [
 
     professionalIds: [],
     researchInterest: "Scada Transport and Distribution Control centers. System architect for grid control applications for Transport and Distribution networks. Versed with the use and implementation of Transmission Network application (SE, CA, PF, etc). Control Center SCADA software, Design Engineering, Installation and Commissioning."
+  },
+  {
+    name: "Dr Nsang Augustine Shey",
+    title: "HOD",
+    department: "Dept of Comp Sc & Engineering",
+    institution: "PKFOKAM Institute of Excellence, Yaounde",
+    mobile: "+237 6 80 18 85 01",
+    email: "assnsang@gmail.com",
+    professionalIds: [],
+    researchInterest: ""
   }
 ];
 
