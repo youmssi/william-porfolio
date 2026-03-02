@@ -22,98 +22,78 @@ export function SkillsSection() {
 
   const softwareSkills = [
     {
-      category: "Leadership & Management",
-      skills: [
-        "Primavera P6",
-        "Microsoft Project",
-        "Microsoft Word",
-        "Excel",
-        "Access",
-        "Lean Six Sigma"
-      ]
-    },
-    {
-      category: "Robotics, AI, & Smart Manufacturing",
+      category: "Mechatronics & Automation",
       skills: [
         "Siemens PLC",
         "Allen Bradley PLC",
-        "C++",
-        "MATLAB",
-        "Arduino",
+        "Industrial Automation",
         "LabVIEW",
-        "Kongsberg Simulation Trainer",
+        "SIMUMERIK",
+        "HMI Programming",
+        "SCADA Systems"
+      ]
+    },
+    {
+      category: "Robotics & Control Systems",
+      skills: [
+        "ROS",
+        "MATLAB",
+        "Simulink",
+        "Arduino",
+        "Embedded Systems Programming",
+        "Control Theory",
+        "Kinematics & Dynamics"
+      ]
+    },
+    {
+      category: "AI & Machine Learning",
+      skills: [
         "Python",
-        "ROS (Robot Operating System)",
+        "TensorFlow",
+        "Machine Learning Specialization (in progress)",
+        "Neural Networks and Deep Learning (in progress)",
+        "Reinforcement Learning (in progress)",
+        "Computer Vision",
         "IoT Platforms"
       ]
     },
     {
-      category: "Mechanical Engineering & Design",
+      category: "CAD/CAM & Simulation",
       skills: [
         "SolidWorks",
         "Siemens NX",
         "Autodesk Inventor",
         "AutoCAD",
-        "Autodesk 360",
+        "Creo Parametric",
         "ANSYS",
+        "COMSOL Multiphysics",
+        "CFD",
         "SketchUp",
         "3ds Max",
-        "SIMUMERIK",
-        "COMSOL",
-        "Creo Parametric",
-        "Additive Manufacturing (3D Printing)"
+        "Autodesk 360"
       ]
     },
     {
-      category: "Production & Process Engineering",
+      category: "Manufacturing & Production",
       skills: [
-        "Siemens PLC",
-        "Allen Bradley PLC",
-        "MATLAB",
+        "CNC Machining & Programming",
+        "Additive Manufacturing (3D Printing)",
         "Statistical Process Control (SPC)",
-        "SAP"
-      ]
-    },
-    {
-      category: "Simulation & Analysis",
-      skills: [
-        "ANSYS",
-        "MATLAB",
-        "Kongsberg Simulation Trainer",
-        "COMSOL Multiphysics",
-        "CFD (Computational Fluid Dynamics)",
-        "Simulink",
+        "SAP",
+        "Lean Six Sigma",
         "Autocast",
         "PROCAST"
       ]
     },
     {
-      category: "AI/ML",
+      category: "Marine Engineering",
       skills: [
-        "Machine Learning Specialization (in progress)",
-        "TensorFlow (in progress)",
-        "Neural Networks and Deep Learning (in progress)",
-        "Reinforcement Learning (in progress)"
-      ]
-    },
-    {
-      category: "Software & Programming",
-      skills: [
-        "C++",
-        "MATLAB",
-        "LabVIEW",
-        "Schemaplic",
-        "Proteus",
-        "Embedded Systems Programming"
-      ]
-    },
-    {
-      category: "Specialized Engineering Domains",
-      skills: [
-        "Autodesk Revit",
-        "Energy Plus",
+        "Kongsberg Simulation Trainer",
+        "Marine Systems Design",
+        "Naval Architecture",
         "PDMS",
-        "AutoCAD Plant 3D"
+        "AutoCAD Plant 3D",
+        "Maritime Regulations"
       ]
     }
   ];
