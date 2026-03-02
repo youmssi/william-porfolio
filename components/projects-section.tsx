@@ -255,43 +255,6 @@ export function ProjectsSection() {
       </div>
     </section>
   );
-} const featuredProjects = [
-  {
-    id: 1,
-    title: "Autonomous Infrastructure Inspection Robot",
-    description: "Developed an autonomous robot for infrastructure inspection using computer vision and ROS2 framework. Achieved 96% accuracy in defect detection through deep learning models trained on structural damage datasets.",
-    metrics: "96% accuracy",
-    technologies: ["ROS2", "Gazebo", "Computer Vision", "Python"],
-    icon: <Cpu className="h-8 w-8 text-primary" />,
-    tags: ["Robotics", "AI", "Computer Vision", "ROS2"]
-  },
-  {
-    id: 2,
-    title: "AI-Driven Machining Optimization",
-    description: "Implemented deep reinforcement learning (DQN) to optimize CNC machining parameters on Siemens 828D controllers. Reduced cycle time by 18% while maintaining part quality through intelligent feed rate and spindle speed optimization.",
-    metrics: "18% cycle time reduction",
-    technologies: ["Python", "TensorFlow", "DQN", "CNC", "Siemens 828D"],
-    icon: <Zap className="h-8 w-8 text-primary" />,
-    tags: ["AI", "CNC", "Machine Learning", "Manufacturing"]
-  },
-  {
-    id: 3,
-    title: "IoT Predictive Battery Health Monitor",
-    description: "Designed an IoT-based predictive maintenance system for battery health monitoring using ESP32 microcontrollers and TensorFlow Lite. Reduced equipment downtime by 20% through early failure detection and MQTT-based real-time alerts.",
-    metrics: "20% downtime reduction",
-    technologies: ["ESP32", "TensorFlow Lite", "IoT", "MQTT", "Python"],
-    icon: <Cpu className="h-8 w-8 text-primary" />,
-    tags: ["IoT", "Predictive Maintenance", "Machine Learning", "Embedded Systems"]
-  },
-  {
-    id: 4,
-    title: "Adaptive 6-DOF Robotic Arm",
-    description: "Developed an adaptive control system for a 6-DOF robotic arm using MATLAB/Simulink. Improved positioning accuracy by 15% through advanced kinematics modeling and real-time trajectory optimization algorithms.",
-    metrics: "15% accuracy improvement",
-    technologies: ["MATLAB", "Simulink", "Control Systems", "Kinematics"],
-    icon: <Cog className="h-8 w-8 text-primary" />,
-    tags: ["Robotics", "Control Systems", "MATLAB", "Kinematics"]
-  }
-];
+}
 
 
