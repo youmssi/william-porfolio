@@ -48,11 +48,12 @@ export function ExperienceSection() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Commissioned state-of-the-art CNC milling/turning facili es (EMCOMAT/FB).</li>
-                    <li> Lecturer in CNC Machining and Programming, Manufacturing Automa on, Metrology and Design
-                    and Manufacturing Engineering Graphic II.</li>
-                    <li> Supervised student projects in AI-driven manufacturing opmiza on.</li>
-                    <li> Hands-on Prac cal projects on USING SIEMEN, FANUC Controllers for Advanced Machining.</li>
+                    <li>Commissioned $250k worth of state-of-the-art CNC milling/turning facilities (EMCOMAT/FB)</li>
+                    <li>Managed $2.5M laboratory budget for equipment procurement and facility operations</li>
+                    <li>Supervised 12 capstone projects in AI-driven manufacturing optimization and robotics</li>
+                    <li>Trained 200+ students in CNC machining and AI-driven manufacturing techniques</li>
+                    <li>Lecturer in CNC Machining and Programming, Manufacturing Automation, Metrology and Design</li>
+                    <li>Led hands-on practical projects using SIEMENS and FANUC controllers for advanced machining</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -64,8 +65,11 @@ export function ExperienceSection() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <ul className="list-disc pl-5 text-sm space-y-2">
-                    <li>Managed CAD/CAM designs and mechanical systems maintenance.</li>
-                    <li> Led project budgeting and inventory control.</li>
+                    <li>Led 5 cross-functional teams totaling 30 people across mechanical, electrical, and civil disciplines</li>
+                    <li>Reduced project delivery time by 18% through process optimization and resource allocation</li>
+                    <li>Managed project budget, SHEQ compliance, and stakeholder reporting for multiple concurrent projects</li>
+                    <li>Oversaw CAD/CAM designs and mechanical systems maintenance for construction projects</li>
+                    <li>Implemented inventory control systems and project budgeting frameworks</li>
                   </ul>
                 </CardContent>
               </Card>
