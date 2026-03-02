@@ -154,41 +154,61 @@ export function ExperienceSection() {
             <TabsContent value="certifications" className="space-y-6">
               <Card>
                 <CardHeader>
+                  <CardTitle>EMCO Training Certification</CardTitle>
+                  <CardDescription>Basic training CT260, FB450, EMCOMAT20D, HMI Operate and Siemens 828D, 2020-2022</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <p className="text-sm">Basic training CT260, FB450, EMCOMAT20D, HMI Operate and Siemens 828D. Comprehensive certification in CNC programming, operation, and maintenance.</p>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardHeader>
+                  <CardTitle>GUNT Hamburg Certification</CardTitle>
+                  <CardDescription>GUNT HAMBURG Germany Equipment for Engineering Education, 2020-2022</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <p className="text-sm">Professional Research and Training in Engineering Education Equipment. Advanced training in engineering education methodologies and equipment operation.</p>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardHeader>
+                  <CardTitle>Material Testing Certification</CardTitle>
+                  <CardDescription>Zwick/Roell Machine, Avatar Solutions South Africa, 2020-2022</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <p className="text-sm">Zwick/Roell Machine, Avatar Solutions South Africa. Specialized training in materials testing procedures and analysis techniques.</p>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardHeader>
+                  <CardTitle>Best Student Award</CardTitle>
+                  <CardDescription>Higher Diploma Marine Engineering | 2016</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <p className="text-sm">Recognized for outstanding academic achievement and excellence in marine engineering studies.</p>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardHeader>
+                  <CardTitle>Featured Speaker Recognition</CardTitle>
+                  <CardDescription>Engineering Education and Research | 2022-2023</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <p className="text-sm">Engineering Education and Research | 2022-2023. Invited speaker at engineering education conferences and research symposiums.</p>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardHeader>
                   <CardTitle>Research/Practical Training Proficiency</CardTitle>
                   <CardDescription>Kumaraguru College of Technology, 2022-2023</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <p className="text-sm">Advanced research methodologies and practical applications in mechanical engineering.</p>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardHeader>
-                  <CardTitle>Material Testing and Analysis Certification</CardTitle>
-                  <CardDescription>Zwick/Roell Machine, Avatar Solutions South Africa, 2020-2022</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-2">
-                  <p className="text-sm">Specialized training in materials testing procedures and analysis techniques.</p>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardHeader>
-                  <CardTitle>Professional Research and Training Certification</CardTitle>
-                  <CardDescription>GUNT HAMBURG Germany Equipment for Engineering Education, 2020-2022</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-2">
-                  <p className="text-sm">Advanced training in engineering education methodologies and equipment operation.</p>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardHeader>
-                  <CardTitle>EMCO Training Certification</CardTitle>
-                  <CardDescription>Basic training CT260, FB450, EMCOMAT20D, HMI Operate and Siemens 828D, 2020-2022</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-2">
-                  <p className="text-sm">CNC Machining specialist certification with focus on programming and maintenance.</p>
                 </CardContent>
               </Card>
               
