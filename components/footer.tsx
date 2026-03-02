@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-3">
             <h3 className="text-lg font-medium">Timoh William Chick</h3>
             <p className="text-sm text-muted-foreground">
-            HEAD of PKFokam Mechanical Engineering Lab | Robotics, AI & Smart Manufacturing Innovator | Open to PhD & Industry Opportunities
+              HEAD of PKFokam Mechanical Engineering Lab | Robotics, AI & Smart Manufacturing Innovator | Open to Technical Director opportunities and industry R&D roles
             </p>
           </div>
           
