@@ -16,7 +16,7 @@ export function HeroSection() {
                 Timoh William Chick
               </h1>
               <p className="text-lg text-muted-foreground sm:text-xl">
-              HEAD of PKFokam Mechanical Engineering Lab | Robotics, AI & Smart Manufacturing Innovator | Open to PhD & Industry Opportunities
+                Head of Mechanical-Mechatronics Engineering Lab | Mechatronics Engineer Specializing in Robotics, AI & Advanced Manufacturing, Open to PhD & Industry Opportunities
               </p>
             </div>
             <div className="space-y-3">
