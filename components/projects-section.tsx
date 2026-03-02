@@ -4,9 +4,48 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Cog, Ship, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Settings, BookOpen } from "lucide-react";
+import { Cog, Ship, Factory, Wrench, FlaskConical, Layers, Hammer, Leaf, Settings, BookOpen, Cpu, Zap } from "lucide-react";
 
 export function ProjectsSection() {
+  const featuredProjects = [
+    {
+      id: 1,
+      title: "Autonomous Infrastructure Inspection Robot",
+      description: "Developed an autonomous robot for infrastructure inspection using computer vision and ROS2 framework. Achieved 96% accuracy in defect detection through deep learning models trained on structural damage datasets.",
+      metrics: "96% accuracy",
+      technologies: ["ROS2", "Gazebo", "Computer Vision", "Python"],
+      icon: <Cpu className="h-8 w-8 text-primary" />,
+      tags: ["Robotics", "AI", "Computer Vision", "ROS2"]
+    },
+    {
+      id: 2,
+      title: "AI-Driven Machining Optimization",
+      description: "Implemented deep reinforcement learning (DQN) to optimize CNC machining parameters on Siemens 828D controllers. Reduced cycle time by 18% while maintaining part quality through intelligent feed rate and spindle speed optimization.",
+      metrics: "18% cycle time reduction",
+      technologies: ["Python", "TensorFlow", "DQN", "CNC", "Siemens 828D"],
+      icon: <Zap className="h-8 w-8 text-primary" />,
+      tags: ["AI", "CNC", "Machine Learning", "Manufacturing"]
+    },
+    {
+      id: 3,
+      title: "IoT Predictive Battery Health Monitor",
+      description: "Designed an IoT-based predictive maintenance system for battery health monitoring using ESP32 microcontrollers and TensorFlow Lite. Reduced equipment downtime by 20% through early failure detection and MQTT-based real-time alerts.",
+      metrics: "20% downtime reduction",
+      technologies: ["ESP32", "TensorFlow Lite", "IoT", "MQTT", "Python"],
+      icon: <Cpu className="h-8 w-8 text-primary" />,
+      tags: ["IoT", "Predictive Maintenance", "Machine Learning", "Embedded Systems"]
+    },
+    {
+      id: 4,
+      title: "Adaptive 6-DOF Robotic Arm",
+      description: "Developed an adaptive control system for a 6-DOF robotic arm using MATLAB/Simulink. Improved positioning accuracy by 15% through advanced kinematics modeling and real-time trajectory optimization algorithms.",
+      metrics: "15% accuracy improvement",
+      technologies: ["MATLAB", "Simulink", "Control Systems", "Kinematics"],
+      icon: <Cog className="h-8 w-8 text-primary" />,
+      tags: ["Robotics", "Control Systems", "MATLAB", "Kinematics"]
+    }
+  ];
+
   const currentProjects = [
     {
       id: 0,
@@ -125,6 +164,37 @@ export function ProjectsSection() {
         </div>
         
         <div className="mt-12">
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold tracking-tight mb-2 text-center">Featured Projects</h3>
+            <p className="text-muted-foreground text-center mb-8">Highlighted research projects with quantifiable impact</p>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+              {featuredProjects.map((project) => (
+                <Card key={project.id} className="flex flex-col h-full">
+                  <CardHeader>
+                    <div className="mb-4">{project.icon}</div>
+                    <CardTitle>{project.title}</CardTitle>
+                    <div className="mt-2">
+                      <Badge variant="default" className="text-sm">{project.metrics}</Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="flex-grow">
+                    <CardDescription className="text-sm mb-4">{project.description}</CardDescription>
+                    <div className="flex flex-wrap gap-2">
+                      {project.technologies.map((tech) => (
+                        <Badge key={tech} variant="outline" className="text-xs">{tech}</Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+                  <CardFooter className="flex flex-wrap gap-2 border-t pt-4">
+                    {project.tags.map((tag) => (
+                      <Badge key={tag} variant="secondary">{tag}</Badge>
+                    ))}
+                  </CardFooter>
+                </Card>
+              ))}
+            </div>
+          </div>
+          
           <Tabs defaultValue="current">
             <div className="flex justify-center mb-8">
               <TabsList>
@@ -185,4 +255,43 @@ export function ProjectsSection() {
       </div>
     </section>
   );
-} 
+} const featuredProjects = [
+  {
+    id: 1,
+    title: "Autonomous Infrastructure Inspection Robot",
+    description: "Developed an autonomous robot for infrastructure inspection using computer vision and ROS2 framework. Achieved 96% accuracy in defect detection through deep learning models trained on structural damage datasets.",
+    metrics: "96% accuracy",
+    technologies: ["ROS2", "Gazebo", "Computer Vision", "Python"],
+    icon: <Cpu className="h-8 w-8 text-primary" />,
+    tags: ["Robotics", "AI", "Computer Vision", "ROS2"]
+  },
+  {
+    id: 2,
+    title: "AI-Driven Machining Optimization",
+    description: "Implemented deep reinforcement learning (DQN) to optimize CNC machining parameters on Siemens 828D controllers. Reduced cycle time by 18% while maintaining part quality through intelligent feed rate and spindle speed optimization.",
+    metrics: "18% cycle time reduction",
+    technologies: ["Python", "TensorFlow", "DQN", "CNC", "Siemens 828D"],
+    icon: <Zap className="h-8 w-8 text-primary" />,
+    tags: ["AI", "CNC", "Machine Learning", "Manufacturing"]
+  },
+  {
+    id: 3,
+    title: "IoT Predictive Battery Health Monitor",
+    description: "Designed an IoT-based predictive maintenance system for battery health monitoring using ESP32 microcontrollers and TensorFlow Lite. Reduced equipment downtime by 20% through early failure detection and MQTT-based real-time alerts.",
+    metrics: "20% downtime reduction",
+    technologies: ["ESP32", "TensorFlow Lite", "IoT", "MQTT", "Python"],
+    icon: <Cpu className="h-8 w-8 text-primary" />,
+    tags: ["IoT", "Predictive Maintenance", "Machine Learning", "Embedded Systems"]
+  },
+  {
+    id: 4,
+    title: "Adaptive 6-DOF Robotic Arm",
+    description: "Developed an adaptive control system for a 6-DOF robotic arm using MATLAB/Simulink. Improved positioning accuracy by 15% through advanced kinematics modeling and real-time trajectory optimization algorithms.",
+    metrics: "15% accuracy improvement",
+    technologies: ["MATLAB", "Simulink", "Control Systems", "Kinematics"],
+    icon: <Cog className="h-8 w-8 text-primary" />,
+    tags: ["Robotics", "Control Systems", "MATLAB", "Kinematics"]
+  }
+];
+
+
