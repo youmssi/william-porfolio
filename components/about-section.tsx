@@ -19,12 +19,7 @@ export function AboutSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">About Me</h2>
             <p className="max-w-[700px] text-muted-foreground md:text-lg">
-            As Head of PKFokam Mechanical Engineering Lab, I lead the PKFokam Innova on Lab Projects, 
-supervising innovative solutions in robotics, AI-driven CNC optimization, subtractive and additive 
-manufacturing, and sustainable engineering. My research, MSMAAI, optimizes machining sequences 
-using ML and RL for Industry 4.0. With a Master’s in Industrial Maintenance and Production 
-Engineering, CNC certifications (Siemens 828D), and expertise in CAD/CAM (SolidWorks, ANSYS), I am 
-open to PhD opportunities and industry R&D roles. Download Research Proposal  
+              I am a dynamic Mechanical and Mechatronics Engineer with deep expertise in industrial automation, marine engineering, and robotics. As Head of the PKFokam Mechanical Engineering Lab, I lead innovation in AI-driven manufacturing and autonomous systems. My work focuses on designing scalable robotics solutions—from digital twin frameworks for agriculture to AI-optimized CNC machining. I am passionate building high-performance teams and translating complex research into tangible engineering outcomes. Explore my portfolio below to see my projects in action.
             </p>
           </div>
         </div>
