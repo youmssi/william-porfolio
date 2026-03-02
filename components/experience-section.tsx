@@ -2,6 +2,7 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { Briefcase, GraduationCap, Award } from "lucide-react";
 
 export function ExperienceSection() {
@@ -97,22 +98,23 @@ export function ExperienceSection() {
             </TabsContent>
             
             <TabsContent value="education" className="space-y-6">
-              {/* <Card>
+              <Card>
                 <CardHeader>
-                  <CardTitle>PhD Student - Doctorate in Projects</CardTitle>
-                  <CardDescription>Funiber, 2021-2022</CardDescription>
+                  <CardTitle>MSc Mechatronics Engineering</CardTitle>
+                  <CardDescription>University of Buea, Expected 2026</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
-                  <p className="text-sm">Advanced studies in project management methodologies and implementation strategies.</p>
+                  <p className="text-sm">Advanced studies in mechatronics systems, robotics, and intelligent automation.</p>
                 </CardContent>
-              </Card> */}
+              </Card>
               
               <Card>
                 <CardHeader>
                   <CardTitle>HIGHER DIPLOMA MARINE ENGINEERING (Hons)</CardTitle>
-                  <CardDescription>Regional Maritime University Ghana, 2014-2016</CardDescription>
+                  <CardDescription>Regional Maritime University Ghana, 2014-2016 | GPA: 3.68/4.0</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
+                  <Badge className="mb-2">Best Student Award</Badge>
                   <p className="text-sm">Specialized training in marine engineering systems, vessel operations, and maritime regulations.</p>
                 </CardContent>
               </Card>
@@ -120,9 +122,10 @@ export function ExperienceSection() {
               <Card>
                 <CardHeader>
                   <CardTitle>MASTER OF ENGINEERING DEGREE</CardTitle>
-                  <CardDescription>Industrial Maintenance and Production Engineering, University of Ngaoundere, 2009-2012</CardDescription>
+                  <CardDescription>Industrial Maintenance and Production Engineering, University of Ngaoundere, 2009-2012 | GPA: 3.38/4.0</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
+                  <Badge className="mb-2">Scholarship Award</Badge>
                   <p className="text-sm">Advanced studies in industrial systems, maintenance strategies, and production engineering principles.</p>
                 </CardContent>
               </Card>
