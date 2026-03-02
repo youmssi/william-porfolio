@@ -42,7 +42,7 @@ export function AboutSection() {
                   Robotic Harvesting in Tropical Farms
                 </li>
                 <li>
-                  Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering [GPA, 3,2/4,0].
+                  Master&apos;s in Industrial Maintenance and Production Engineering, and specialized diplomas in Marine and Mechanical Engineering [GPA, 3,38/4]
                 </li>
               </ul>
               
